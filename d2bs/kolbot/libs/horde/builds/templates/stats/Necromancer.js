@@ -23,6 +23,25 @@ var StatsBuilds = {
 		["str", 156],
 		["vit", "all"]
 	],
+	"LevellingDex": [
+		["vit", 40],
+		["str", 60],
+		["vit", 100],
+		["dex", 35],//flail
+		["str", 85],
+		["vit", 150],
+		["dex", 50],
+		["str", 100],
+		["vit", 180],
+		["str", 125],
+		["vit", 205],
+		["dex", 100],
+		["str", 156],
+		["dex", 136],
+		["vit", 250],
+		["dex", 150],
+		["vit", "all"]
+	],
 	
 	"LevellingMana": [
 		["str", 20],

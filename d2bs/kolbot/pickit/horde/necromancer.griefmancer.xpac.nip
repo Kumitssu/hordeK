@@ -1,0 +1,41 @@
+// gloves
+[type] == gloves && [quality] >= magic && [flag] != ethereal # ([durability] >=1 || [ItemReplenishDurability] >= 1 || [ItemIndestructible] >= 1) # [tier] ==   (1 + /*ias*/item.getStatEx(93)*100 + /*maxmana*/item.getStatEx(9)*0.5 + /*hpregen*/item.getStatEx(74)*7 + /*hp*/item.getStatEx(7)*0.5 + /*mf*/item.getStatEx(80)*1.8 + /*fireres*/item.getStatEx(39)*2.4 + /*lightres*/item.getStatEx(41)*2.4 + /*coldres*/item.getStatEx(43)*2.4 + /*psnres*/item.getStatEx(45)*0.8 + /*armor*/item.getStatEx(31)*0.1)
+[name] == bramblemitts && [quality] == set # [ias] == 20 # [tier] == (10007) // LOH
+//belts 
+[name] == WarBelt && [quality] == unique && [flag] != ethereal # [EnhancedDefense] >= 100 # [tier] == (10007) //thundergods vigor
+[name] == mithrilcoil && [quality] == unique && [flag] != ethereal # [EnhancedDefense] >= 90 # [tier] == (15000) //verdungo
+[name] == vampirefangbelt && [quality] == unique && [flag] != ethereal # # [tier] == (20000) // nosferatu's coil
+
+
+//boots
+[name] == lightplatedboots && [quality] == unique && [flag] != ethereal # # [tier] == 11000 //goblin toe
+[name] == warboots && [quality] == unique && [flag] != ethereal # # [tier] == 12000 // gore riders
+
+// helm
+([type] == helm || [type] == circlet) && (([quality] >= magic) || [flag] == runeword) && [flag] != ethereal # [durability] >=1 || [ItemReplenishDurability] >= 1 || [ItemIndestructible] >= 1 # [tier] == (1 + item.getStatEx(188,18)*30 + item.getStatEx(83,2)*35 + item.getStatEx(127)*35 + item.getStatEx(74)*7 + item.getStatEx(105)*5 + item.getStatEx(7)*1 + item.getStatEx(9)*1 + item.getStatEx(39)*2.4 + item.getStatEx(41)*2.4 + item.getStatEx(43)*2.4 + item.getStatEx(45)*0.8 + item.getStatEx(31)*0.1)
+[name] == bonevisage && [quality] == set && [flag] != ethereal # # [tier] == 5000 // talrasha
+[name] == wingedhelm && [quality] == set && [flag] != ethereal # # [tier] == 11000 //Guillaume
+
+// amulet
+[type] == amulet && [quality] >= magic # # [tier] == (1 + item.getStatEx(188,18)*30 + item.getStatEx(83,2)*55 + item.getStatEx(127)*35 + item.getStatEx(74)*7 + item.getStatEx(105)*5 + item.getStatEx(7)*1 + item.getStatEx(9)*1 + item.getStatEx(39)*2.4 + item.getStatEx(41)*2.4 + item.getStatEx(43)*2.4 + item.getStatEx(45)*0.8 + item.getStatEx(31)*0.1)
+[name] == amulet && [quality] == unique # [dexterity] == 25 # [tier] == 5000 //cat's eye
+[name] == amulet && [quality] == unique # [tohit] >= 350 # [tier] == 15000 // metalgrid
+[name] == amulet && [quality] == unique # [lightresist] == 35 # [tier] == 10000 //highlords
+//rings
+[Type] == ring && [Quality] == Unique # [Dexterity] >= 15 && [ToHit] >= 100 # [tier] == 6000 //raven 15+
+[Type] == ring && [Quality] == Unique # [Dexterity] >= 20 && [ToHit] >= 100 # [tier] == 10000 //raven 20
+
+// armor
+[type] == armor && [flag] == runeword && [class] == elite && [flag] != ethereal # [fireresist] == 50 && [lightresist] == 50 # [tier] == 9000 //elite smoke (higher tier than common physical)
+
+// weapon
+([Name] == Club || [Name] == SpikedClub || [Name] == Mace || [Name] == MorningStar || [Name] == Flail || [Name] == WarHammer || [Name] == Cudgel || [Name] == BarbedClub || [Name] == FlangedMace || [Name] == JaggedStar || [Name] == Knout || [name] == caduceus) && [flag] != ethereal # ([durability] >=1 || [ItemReplenishDurability] >= 1 || [ItemIndestructible] >= 1) # [tier] == (1 + /*crushingblow*/item.getStatEx(136)*10 + /*ias*/item.getStatEx(93)*10 + item.getStatEx(107,97)*25 + item.getStatEx(107,122)*20 + item.getStatEx(107,125)*15 + item.getStatEx(188,24)*30 + item.getStatEx(83,3)*35 + item.getStatEx(127)*35 + item.getStatEx(7)*1 + item.getStatEx(9)*1 + item.getStatEx(39)*2.4 + item.getStatEx(41)*2.4 + item.getStatEx(43)*2.4 + item.getStatEx(45)*0.8 + item.getStatEx(31)*0.1 + item.getStatEx(22)* 0.01)
+[name] == Flail && [flag] == runeword && [flag] != ethereal # [ias] >= 15 # [tier] == (10000) //Black
+[name] == phaseblade && [flag] == runeword && [flag] != ethereal # [ias] >= 30 # [tier] == (15000) //Grief
+
+//shields
+([type] == necromanceritem || [type] == voodooheads || [type] == shield) && [quality] >= magic && [flag] != ethereal # ([durability] >=1 || [ItemReplenishDurability] >= 1 || [ItemIndestructible] >= 1) # [tier] == (1 +  item.getStatEx(107,70)*20 + item.getStatEx(107,69)*20 + item.getStatEx(107,74)*15 + item.getStatEx(188,18)*30 + item.getStatEx(83,2)*35 + item.getStatEx(127)*35 + item.getStatEx(7)*1 + item.getStatEx(9)*1 + item.getStatEx(39)*2.4 + item.getStatEx(41)*2.4 + item.getStatEx(43)*2.4 + item.getStatEx(45)*0.8 + item.getStatEx(31)*0.1)
+[name] == roundshield && [quality] == unique # # [tier] == 7000 //moser
+[name] == cantortrophy && [quality] == set && [flag] != ethereal # # [tier] == 8000 //trang
+[name] == monarch && [quality] == unique # # [tier] == 10000 //stormshield
+[name] == hierophanttrophy && [quality] == unique && [flag] != ethereal # # [tier] == 15000 // homonculus

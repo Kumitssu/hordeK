@@ -4,6 +4,7 @@
 *	@desc		Necromancer skill builds :
 *					"Summon" : Pure summoner
 *					"SummonResists" : Summoner with lower resist
+					"Griefmancer" : AIO
 *	@credits	Adpist, Mark, JeanMax / SiC-666 / Dark-f, Alogwe, Imba, Kolton, Larryw, Noah, QQValpen, Sam, YGM
 *
 */
@@ -26,7 +27,21 @@ var SkillsBuilds = {
 		[74, 20, false], //Max Corpse Explosion
 		[95, 20, false] //Max Revive
 	],
-
+	"Griefmancer": [
+		[66, 1, false], //Amplify damage
+		[70, 2, false], //Raise Skeleton
+		[69, 1, false], //Skeleton Mastery
+		[67, 1, false], //Teeth
+		[74, 1, false], //Corpse Explosion
+		[75, 1, false], //Clay Golem
+		[87, 1, false], //Decrepify
+		[89, 1, false], //Summon Resist
+		[70, 20, false], //Max Raise Skeleton
+		[66, 20, false], //Max Amplify damage
+		[95, 1, false], //Revive
+		[74, 20, false], //Max Corpse Explosion
+		[95, 20, false] //Max Revive
+	],
 	"SummonResists": [
 		[70, 1, false], //Raise Skeleton
 		[66, 1, false], //Amplify Damage
