@@ -4,6 +4,7 @@
 *	@desc		Necromancer stats builds :
 *					"Levelling" : vit + str (up to 156)
 *					"Levelling" : vit + str (up to 115) + energy (up to 75)
+*					"LevellingDex: for Griefmancer only
 *	@credits	Adpist, Mark, JeanMax / SiC-666 / Dark-f, Alogwe, Imba, Kolton, Larryw, Noah, QQValpen, Sam, YGM
 *	
 */

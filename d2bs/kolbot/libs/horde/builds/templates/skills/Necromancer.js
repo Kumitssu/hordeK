@@ -4,8 +4,8 @@
 *	@desc		Necromancer skill builds :
 *					"Summon" : Pure summoner
 *					"SummonResists" : Summoner with lower resist
-					"Griefmancer" : AIO
-*	@credits	Adpist, Mark, JeanMax / SiC-666 / Dark-f, Alogwe, Imba, Kolton, Larryw, Noah, QQValpen, Sam, YGM
+					"Griefmancer" : AIO, melee with Curses, CE, and summons
+*	@credits	Adpist, Mark, JeanMax / SiC-666 / Dark-f, Alogwe, Imba, Kolton, Larryw, Noah, QQValpen, Sam, YGM, Kumitssu
 *
 */
 

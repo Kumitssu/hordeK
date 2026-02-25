@@ -1,8 +1,8 @@
 /**
 *	@filename	griefmancer.js
-*	@author		Adpist
+*	@author		Kumitssu
 *	@desc		Griefmancer (melee + summons + curses + CE, AIO)
-*	@credits	Kumitssu, Secret Ninja
+*	@credits	Kumitssu, Secret Ninja, Adpist
 *	
 */
 
