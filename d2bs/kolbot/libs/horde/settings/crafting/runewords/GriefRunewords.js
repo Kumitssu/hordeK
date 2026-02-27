@@ -1,8 +1,8 @@
 /**
-*	@filename	GriefRunewords.js
-*	@author		Kumitssu
-*	@desc		Griefmancer runewords
-*	@credits	Adpist, JeanMax / SiC-666 / Dark-f, Alogwe, Imba, Kolton, Larryw, Noah, QQValpen, Sam, YGM, Secret Ninja
+*	@filename	SmiterRunewords.js
+*	@author		Adpist
+*	@desc		Smiter runewords
+*	@credits	Adpist, JeanMax / SiC-666 / Dark-f, Alogwe, Imba, Kolton, Larryw, Noah, QQValpen, Sam, YGM
 */
 
 var RunewordProfile = {
